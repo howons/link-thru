@@ -1,23 +1,17 @@
 {
   "manifest_version": 3,
-  "name": "Request Thru",
+  "name": "Link Thru",
   "version": "REPLACED-BY-VITE",
-  "description": "A chrome extension for customizing request header",
+  "description": "A chrome extension for generating url link and QR code",
   "icons": {
     "34": "assets/icons/icon-34.png",
     "128": "assets/icons/icon-128.png"
   },
   "action": {
-    "default_title": "Request Thru",
+    "default_title": "Link Thru",
     "default_popup": "src/popup/index.html",
     "default_icon": "assets/icons/icon-34.png"
   },
-  "content_scripts": [
-    {
-      "js": ["src/content/index.ts"],
-      "matches": ["*://*/*"]
-    }
-  ],
   "background": {
     "service_worker": "src/background/index.ts"
   },

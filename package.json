@@ -1,7 +1,7 @@
 {
-  "name": "request-thru",
+  "name": "link-thru",
   "version": "1.0.0",
-  "description": "A chrome extension for customizing request header",
+  "description": "A chrome extension for generating url link and QR code",
   "license": "MIT",
   "type": "module",
   "scripts": {
